@@ -48,6 +48,7 @@ h4,
 .h4 {
     font-family: "Roboto", sans-serif;
     font-weight: 800;
+    font-size: 1rem;
     letter-spacing: 1px;
     color: var(--dark);
 }
@@ -256,6 +257,16 @@ p {
 
 }
 
+.img-signature {
+    max-width: 50%;
+
+}
+
+.img-headless {
+    max-width: 100%;
+
+}
+
 .title-orange {
     border-left: 4px solid #FFA552;
     padding-bottom: 1px;
@@ -361,6 +372,10 @@ p {
 
 .margin-up {
     margin-top: -2rem;
+}
+
+.margin-title {
+    margin-top: 4rem;
 }
 
 .show-bkgd {
