@@ -352,8 +352,8 @@ p {
 }
 
 .margin-center {
-    margin-left: 1rem;
-    margin-right: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
 }
 
 .margin-bottom {
@@ -662,8 +662,9 @@ p {
 
 /* socmed */
 .fa-facebook {
-    background: #3B5998;
-    color: white;
+    /* background: #3B5998; */
+    color: #000000;
+
 }
 
 /* Twitter */
@@ -678,13 +679,13 @@ p {
 }
 
 .fa-youtube {
-    background: #bb0000;
-    color: white;
+    /* background: #bb0000; */
+    color: #000000;
 }
 
 .fa-instagram {
-    background: #125688;
-    color: white;
+    /* background: #125688; */
+    color: #000000;
 }
 
 /* Style all font awesome icons */
