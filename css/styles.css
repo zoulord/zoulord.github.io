@@ -68,6 +68,12 @@ h4,
     margin-bottom: 2rem;
 }
 
+.work-title {
+    font-size: 0.5rem;
+    line-height: 1;
+    margin-bottom: 3rem;
+}
+
 .centered {
     text-align: center;
 }
@@ -354,6 +360,11 @@ p {
 .margin-center {
     margin-left: 0.5rem;
     margin-right: 0.5rem;
+}
+
+.margin-center2 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
 }
 
 .margin-bottom {
@@ -701,3 +712,10 @@ p {
 /* Add a hover effect if you want */
 .fa:hover {
     opacity: 0.5;
+}
+
+.fa,
+.fas {
+    font-weight: 900;
+    font-size: 3rem;
+}
