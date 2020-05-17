@@ -52,6 +52,7 @@ h4,
     font-size: 1rem;
     letter-spacing: 1px;
     color: var(--dark);
+    text-align: center;
 }
 
 .display-1,
@@ -80,6 +81,7 @@ h4,
     font-size: 0.5rem;
     line-height: 1;
     margin-top: 1rem;
+    text-align: center;
 }
 
 .work-title2 {
@@ -87,6 +89,7 @@ h4,
     font-size: 0.5rem;
     line-height: 1;
     margin-top: 22px;
+    text-align: center;
 }
 
 .work-title3 {
@@ -94,6 +97,7 @@ h4,
     font-size: 0.5rem;
     line-height: 1;
     margin-top: 24px;
+    text-align: center;
 }
 
 .centered {
@@ -129,6 +133,7 @@ a {
 .icon-work {
     max-width: 25%;
     justify-content: center;
+    margin-left: 10rem;
 }
 
 .img-fluid {
@@ -141,23 +146,61 @@ a {
     .icon-work {
         max-width: 25%;
         justify-content: center;
+        margin-left: 10rem;
     }
 
     .img-fluid {
         max-width: 30%;
 
     }
+
+    h2 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: var(--dark);
+        text-align: center;
+
+    }
+
+    .work-title {
+        font-family: 'DM Mono', monospace;
+        font-size: 0.5rem;
+        line-height: 1;
+        margin-top: 1rem;
+        text-align: center;
+    }
+
 }
 
 /* styles for medium devices */
 @media (min-width: 768px) {
     .icon-work {
         max-width: 100%;
+        margin-left: 0rem;
     }
 
     .img-fluid {
         max-width: 120%;
 
+    }
+
+    h2 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: var(--dark);
+        text-align: left;
+    }
+
+    .work-title {
+        font-family: 'DM Mono', monospace;
+        font-size: 0.5rem;
+        line-height: 1;
+        margin-top: 1rem;
+        text-align: left;
     }
 
 }
@@ -166,11 +209,29 @@ a {
 @media (min-width: 992px) {
     .icon-work {
         max-width: 75%;
+        margin-left: 0rem;
     }
 
     .img-fluid {
         max-width: 100%;
 
+    }
+
+    h2 {
+        font-family: "Montserrat", sans-serif;
+        font-weight: 700;
+        font-size: 1rem;
+        letter-spacing: 1px;
+        color: var(--dark);
+        text-align: left;
+    }
+
+    .work-title {
+        font-family: 'DM Mono', monospace;
+        font-size: 0.5rem;
+        line-height: 1;
+        margin-top: 1rem;
+        text-align: left;
     }
 }
 
