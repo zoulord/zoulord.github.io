@@ -133,7 +133,7 @@ a {
 .icon-work {
     max-width: 25%;
     justify-content: center;
-    margin-left: 12rem;
+    margin-left: 10rem;
 }
 
 .img-fluid {
@@ -147,7 +147,7 @@ a {
     .icon-work {
         max-width: 25%;
         justify-content: center;
-        margin-left: 12rem;
+        margin-left: 10rem;
     }
 
     .img-fluid {
@@ -248,7 +248,8 @@ a {
 
 
 .img-signature {
-    max-width: 50%;
+    max-width: 5%;
+    /* align-items: center; */
 
 }
 
@@ -340,7 +341,7 @@ a {
 }
 
 .no-margin {
-    margin: 0 !important;
+    margin: -3rem !important;
 }
 
 .no-margin-bottom {
