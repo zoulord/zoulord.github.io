@@ -133,11 +133,12 @@ a {
 .icon-work {
     max-width: 25%;
     justify-content: center;
-    margin-left: 10rem;
+    margin-left: 12rem;
 }
 
 .img-fluid {
     max-width: 50%;
+    margin-left: 10rem;
 
 }
 
@@ -146,11 +147,12 @@ a {
     .icon-work {
         max-width: 25%;
         justify-content: center;
-        margin-left: 10rem;
+        margin-left: 12rem;
     }
 
     .img-fluid {
         max-width: 30%;
+        margin-left: 10rem;
 
     }
 
@@ -183,6 +185,7 @@ a {
 
     .img-fluid {
         max-width: 120%;
+        margin-left: 0rem;
 
     }
 
@@ -214,6 +217,7 @@ a {
 
     .img-fluid {
         max-width: 100%;
+        margin-left: 0rem;
 
     }
 
